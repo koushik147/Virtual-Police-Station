@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>about - virtual police station</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<script src="js/mobile.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<div>
+				<a href="home.html" class="logo"><img src="siren.jpg" alt=""></a>
+				<ul id="navigation">
+					<li>
+						<a href="home.html">Home</a>
+					</li>
+					<li class="menu selected">
+						<a href="abou.html">About</a>
+						<ul class="primary">
+							<li>
+								<a href="abou.html">website and crime investigations</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu">
+						<a href="cases.html">cases</a>
+						<ul class="secondary">
+							<li>
+								<a href="cases.html">FIR sections</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="body">
+			<div class="header">
+				<div>
+					<h1>HOME</h1>
+				</div>
+			</div>
+		<div id="body">
+		<div class="footer">
+				<div class="contact">
+					<h1><b><i>AADHAR VERIFICATION</i></b?</h1>
+					<form action="index.html">
+						<p><font color="red">Adhar number<input type="text" name="Adhar" value="aadhar number" onblur="this.value=!this.value?'eg.9999-9999-9999':this.value;" onfocus="this.select()" onclick="this.value='';">
+						<input type="text" name="password" value="Password" onblur="this.value=!this.value?'eg.xxxxxx@@@':this.value;" onfocus="this.select()" onclick="this.value='';">
+					</form>
+				</div>
+			</div>
+		</div>
